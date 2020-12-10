@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 *{
     padding:0;
     margin:0;
@@ -7,7 +8,8 @@
     --primary-color:#f30e0e;
 }
 body{
-    font-family:arial,Helvetica, sans-serif;
+    font-family:'lato', sans-serif;
+    font-weight: 400;
     color:#000;
 }
 
@@ -22,7 +24,7 @@ img{
 .showcase{
     background: url(/SomCar/img/erik-mclean-lMpS4stw6qo-unsplash.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     height:100vh;
 
 }
@@ -94,6 +96,7 @@ section h1{
 .info{
     padding:10px;
     margin:10px;
+    text-align:center;
 }
 .info img{
     margin-bottom:10px;
@@ -114,6 +117,22 @@ section h1{
     font-weight: 300;
 
 }
+/* ICONS */
+.info i{
+    font-size:120px;
+    margin-bottom: 20px;
+    padding:10px;
+}
+.info .fa-map-marker-alt{
+    color:rgb(241, 22, 22);
+}
+.info .fa-money-bill-alt{
+    color:gold;
+}
+.info .fa-money-check-alt{
+    color:green;
+}
+
 /* Footer */
 footer{
     background:#333;
