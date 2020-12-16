@@ -213,7 +213,38 @@ form input[type="tel"]
     display:flex;
     justify-content: space-between;
 }
+.subscribtion{
+    width:400px;
+}
+.subscribtion .card{
+    background:#fff;
+    padding:10px;
+}
+.subscribtion h2{
+    padding:10px 0;
+}
+.flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-field{
+    background:blue;
+    width:270px;
+    border-radius: 270px;
+    margin:20px 0;
 
+}
+.input-field input::placeholder{
+    font-weight:200;
+}
+.btn{
+    border:none;
+    background:crimson;
+    padding:10px 10px;
+    color:#fff;
+    border-radius: 5px;
+}
 /* Footer */
 footer{
     background:#cb0505;
