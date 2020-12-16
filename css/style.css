@@ -157,12 +157,12 @@ section h1{
     letter-spacing: 2px;
     color:rgb(163, 153, 153);
 }
-form{
+.right-side form{
     width:500px;
     background:red;
     padding:10px;
 }
-form label{
+.right-side form label{
     font-size:19px;
     font-weight: 500;
     color:#fff;
@@ -203,10 +203,15 @@ form input[type="tel"]
     padding:10px;
     font-size:19px;
     font-weight: 400;
-    color:blue;
+    color:crimson;
+    border:none;
     text-align:center;
     margin-left:50%;
     transform:translate(-50%)
+}
+.forms-box{
+    display:flex;
+    justify-content: space-between;
 }
 
 /* Footer */
