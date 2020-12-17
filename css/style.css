@@ -12,9 +12,7 @@ body{
     font-weight: 400;
     color:#000;
 }
-.card{
-    border-radius: 10px;
-}
+
 .container{
     padding:20px;
     margin:0 auto;
@@ -64,6 +62,7 @@ a{
 }
 .top h1 span{
     color:var(--primary-color);
+    font-size:40px;
 }
 .top h1{
     font-size:34px;
@@ -115,11 +114,20 @@ button:hover{
     background:rgb(194, 8, 8);
     transition: 0.1s ease-in-out;
 }
+/* Global affect */
+.input-outline{
+    outline: none;
+}
+.card{
+    border-radius:10px;
+}
 
 /* Section */
 section{
     background:#fff;
+    padding-top:20px;
     padding-bottom: 30px;
+    height:100vh;
 }
 section h1{
     text-align:center;
@@ -174,8 +182,8 @@ section h1{
 }
 /* Contact */
 .contact{
-    background:#333;
-    height:600px;
+    background:rgb(247, 10, 10);
+    height:auto;
 }
 .contact-title{
     text-align:center;
@@ -193,7 +201,7 @@ section h1{
 }
 .right-side form{
     width:500px;
-    background:red;
+    background:rgb(190, 34, 34);
     padding:10px;
 }
 .right-side form label{
@@ -236,22 +244,26 @@ form input[type="tel"]
     border-radius: 90px;
     padding:10px;
     font-size:19px;
-    font-weight: 400;
+    font-weight: 500;
     color:crimson;
     border:none;
     text-align:center;
     margin-left:50%;
     transform:translate(-50%)
 }
+.send:hover{
+    background:rgb(206, 202, 202);
+}
 .forms-box{
     display:flex;
     justify-content: space-between;
-}
-.subscribtion{
-    width:400px;
+    padding:10px 0;
+    margin-top:20px;
 }
 .subscribtion{
     background:#fff;
+    width:400px;
+    border-radius: 10px;
     padding:10px;
     text-align: center;
 }
@@ -264,7 +276,7 @@ form input[type="tel"]
     justify-content: space-between;
 }
 .input-field{
-    background:blue;
+    background:rgb(173, 164, 164);
     width:270px;
     border-radius: 8px;
     margin:20px 0;
@@ -280,20 +292,28 @@ form input[type="tel"]
     color:#fff;
     border-radius: 5px;
 }
+.btn:hover{
+    background:rgb(202, 4, 4);
+}
 .social-media{
     letter-spacing: 1px;
     font-size:12px;
     font-weight: 100;
 }
 .social-media i{
+    color:black;
     padding:5px;
-    font-size:22px;
+    font-size:20px;
+    color:#000;
 }
+
+
 .social-media a{
     text-decoration: none;
-    color:black;
     cursor:pointer;
 }
+
+/*
 .social-media a:nth-child(3){
     color:red;
 }
@@ -303,12 +323,19 @@ form input[type="tel"]
 .social-media a:nth-child(5){
     color:#1da1f2;
 }
+*/
 
 /* Footer */
 footer{
     background:black;
     height: auto;
     overflow: hidden;
+}
+.footer-layout{
+    display:grid;
+    color:#fff;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
 }
 .foo-box{
     display:flex;
