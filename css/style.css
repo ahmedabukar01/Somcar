@@ -22,7 +22,7 @@ img{
     width:100%;
 }
 .showcase{
-    background: url(/SomCar/img/erik-mclean-lMpS4stw6qo-unsplash.jpg);
+    background-image: url("../img/erik-mclean-lMpS4stw6qo-unsplash.jpg");
     background-size: cover;
     background-position: bottom;
     height:100vh;
@@ -201,7 +201,7 @@ section h1{
 }
 .right-side form{
     width:500px;
-    background:rgb(190, 34, 34);
+    background:rgb(167, 29, 29);
     padding:10px;
 }
 .right-side form label{
